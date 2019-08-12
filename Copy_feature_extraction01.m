@@ -1,7 +1,7 @@
 close all;
 clear all;
 clc;
-im=gpuArray(imread ('C:\Users\Prash\Desktop\test1.png'));
+im=gpuArray(imread ('C:\Users\yash\Desktop\test1.png'));
 I=rgb2gray(im);
 % I=imresize(I,[128,128]);
 %imshow(I);
